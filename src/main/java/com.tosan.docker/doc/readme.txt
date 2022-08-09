@@ -9,5 +9,5 @@ GET /author: return "Ali Ahmadi"
 ------------------------------
 Run docker image:
 Default: docker run -d -p 8080:8080 image_name
-With listening port(argument): docker run -d -p 8080:9000 image_name port=9000
+With listening port(argument): docker run -d -p 8080:9000 image_name --server.port=9000
 
