@@ -5,7 +5,7 @@ Author: Elham keshavarz
 Services uri with sample:
 GET /helloworld(without parameter): return "Hello Stranger"
 GET /helloworld?name=AliAhmadi(with name parameter): return "Hello AliAhmadi"
-GET /author: return "Ali Ahmadi"
+GET /author: return "Elham Keshavarz"
 ------------------------------
 Run docker image:
 Default: docker run -d -p 8080:8080 image_name
